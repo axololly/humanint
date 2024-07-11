@@ -1,8 +1,8 @@
-# shortint Module
+# `shortint` Module
 
 This is a simple, lightweight Python module to let you abbreviate numbers in their longer versions and extend numbers from their shortened versions.
 
-This project was inspired by [millify](https://github.com/azaitsev/millify) by Alex Zaitsev that would convert long numbers into a more readable format. I was heavily intrigued by the idea, but realised I needed the reverse and that my searches online were to no avail. I also included a feature Alex had, which was allowing for custom units in his conversions.
+This project was inspired by [millify](https://github.com/azaitsev/millify) by Alex Zaitsev that would convert long numbers into a more readable format. I was heavily intrigued by the idea, but realised I needed the reverse and that my searches online were to no avail. I also included a feature Alex had, which was allowing for custom units in his conversions. This is only available in the `shortint.shortint()` function and the standard units only go up to trillions since I couldn't figure out what the suffixes of quadrillions and quintillions were.
 
 ## Installation
 
