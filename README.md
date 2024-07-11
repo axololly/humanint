@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # `humanint` Module
-=======
-# `shortint` Module
->>>>>>> a3b48481c4a57563b3ae420efc22d92ec083121a
 
 This is a simple, lightweight Python module to let you abbreviate numbers in their longer versions and extend numbers from their shortened versions.
 
@@ -43,10 +39,7 @@ There are two functions that come included:
 >>> humanint.from_human('14.325m')
 14325000 # 14,325,000
 ```
-<<<<<<< HEAD
 
 ## Improvements
 
 I'm always open to improvements. Give me your best suggestions, and thank you for viewing my project :)
-=======
->>>>>>> a3b48481c4a57563b3ae420efc22d92ec083121a
