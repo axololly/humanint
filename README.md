@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 # `humanint` Module
+=======
+# `shortint` Module
+>>>>>>> a3b48481c4a57563b3ae420efc22d92ec083121a
 
 This is a simple, lightweight Python module to let you abbreviate numbers in their longer versions and extend numbers from their shortened versions.
 
-This project was inspired by [millify](https://github.com/azaitsev/millify) by Alex Zaitsev that would convert long numbers into a more readable format. I was heavily intrigued by the idea, but realised I needed the reverse and that my searches online were to no avail. I also included a feature Alex had, which was allowing for custom units in his conversions.
+This project was inspired by [millify](https://github.com/azaitsev/millify) by Alex Zaitsev that would convert long numbers into a more readable format. I was heavily intrigued by the idea, but realised I needed the reverse and that my searches online were to no avail. I also included a feature Alex had, which was allowing for custom units in his conversions. This is only available in the `shortint.shortint()` function and the standard units only go up to trillions since I couldn't figure out what the suffixes of quadrillions and quintillions were.
 
 Thank you to Soheab for the improved naming scheme.
 
@@ -39,7 +43,10 @@ There are two functions that come included:
 >>> humanint.from_human('14.325m')
 14325000 # 14,325,000
 ```
+<<<<<<< HEAD
 
 ## Improvements
 
 I'm always open to improvements. Give me your best suggestions, and thank you for viewing my project :)
+=======
+>>>>>>> a3b48481c4a57563b3ae420efc22d92ec083121a
