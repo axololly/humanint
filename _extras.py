@@ -1,7 +1,6 @@
-from math import log10
 from typing import Union
 
-def _round(value: float, precision: int) -> Union[int, float]:
+def round(value: float, precision: int) -> Union[int, float]:
     """
     ### Explanation:
     Round a decimal number (a float) to a given precision.
@@ -21,9 +20,6 @@ def _round(value: float, precision: int) -> Union[int, float]:
     >>> _round(184.14, 3) # no third decimal to round
     184.14
     """
-
-    if isinstance(value, int):
-        return value # no decimal places
     
     if not isinstance(value, float):
         raise ValueError('value argument must be a float.')

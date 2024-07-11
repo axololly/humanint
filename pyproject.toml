@@ -1,9 +1,9 @@
 [project]
 name = "shortint"
-description = "Shorten numbers to abbreviate them, also with an option to reverse that process."
+description = "Shorten numbers to abbreviate them, and lengthen numbers that have been abbreviated."
 readme = {file = "README.md", content-type = "text/markdown"}
 version = "0.0.1"
-keywords = ["shortint", "longint", "shorten numbers", "abbreviate numbers"]
+keywords = ["shortint", "longint", "shorten numbers", "abbreviate numbers", "human-readable"]
 requires-python = ">= 3.12"
 authors = [
     {name = "Axololly", email = "james@griggs.co.uk"}

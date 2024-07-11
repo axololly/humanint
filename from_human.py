@@ -1,8 +1,6 @@
-"Module for expanding shortened versions of numbers to their normal long counterparts."
+"Module for expanding abbreviated versions of numbers to their normal long counterparts."
 
-from math import log10
-
-def longint(value: str) -> int:
+def from_human(value: str) -> float | int:
     """
     ### Explanation:
     Turn an abbreviated number in the format `"...U"` into its normal long form.
